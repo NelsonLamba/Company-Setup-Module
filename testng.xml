@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+    <test name="TestName">
+
+        <classes>
+           <class name="testcases.Announcement"/>  
+         <class name="testcases.Break"/> 
+             <class name="testcases.CannedReply"/> 
+            <class name="testcases.Category"/> 
+            <!-- <class name="testcases.CompanyHolidays"/>     -->
+        <class name="testcases.Channel"/> 
+        <class name="testcases.Emailtemplate"/>  
+         <class name="testcases.Shift"/>
+        <class name="testcases.Skill"/>
+        <class name="testcases.Stage"/>
+         <class name="testcases.TaxAndDiscount"/>
+         <class name="testcases.Trip"/>
+          <class name="testcases.UserTitle"/>
+           <class name="testcases.LoginAuthorization"/> 
+        
+        
+        <class name="testcases.CompanyNotification"/>
+        <class name="testcases.CurrencyManagement"/>
+        <class name="testcases.Department"/>
+        <class name="testcases.Designation"/>
+        <class name="testcases.Greeting"/>
+        <class name="testcases.IndustryType"/>
+        <class name="testcases.Location"/>
+        <class name="testcases.PaymentGateway"/>
+         <class name="testcases.Phase"/>
+        <class name="testcases.Priority"/>
+        <class name="testcases.Question"/>
+         <class name="testcases.Service"/>
+            
+        </classes>
+
+
+    </test>
+
+
+</suite> <!-- Suite -->

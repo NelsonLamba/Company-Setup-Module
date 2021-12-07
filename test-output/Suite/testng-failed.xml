@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="TestName(failed)">
+    <classes>
+      <class name="testcases.CompanyNotification">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.CompanyNotification -->
+      <class name="testcases.Phase">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Phase -->
+      <class name="testcases.LoginAuthorization">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.LoginAuthorization -->
+      <class name="testcases.Designation">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Designation -->
+      <class name="testcases.Emailtemplate">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Emailtemplate -->
+      <class name="testcases.Category">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Category -->
+      <class name="testcases.Stage">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Stage -->
+      <class name="testcases.TaxAndDiscount">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="ActiveAndINactive"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.TaxAndDiscount -->
+      <class name="testcases.Shift">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Shift -->
+      <class name="testcases.Skill">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Skill -->
+      <class name="testcases.Location">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Location -->
+      <class name="testcases.Break">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Break -->
+      <class name="testcases.Priority">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Priority -->
+      <class name="testcases.Question">
+        <methods>
+          <include name="setUp"/>
+          <include name="editQuestion"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Question -->
+      <class name="testcases.Department">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Department -->
+      <class name="testcases.Greeting">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Greeting -->
+      <class name="testcases.Trip">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Trip -->
+      <class name="testcases.Service">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Service -->
+      <class name="testcases.IndustryType">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.IndustryType -->
+      <class name="testcases.PaymentGateway">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.PaymentGateway -->
+      <class name="testcases.CannedReply">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="AddCannedReply"/>
+          <include name="closeBrowser"/>
+          <include name="SearchActiveInactiveDeleteCannedReply"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.CannedReply -->
+      <class name="testcases.Channel">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Channel -->
+      <class name="testcases.UserTitle">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.UserTitle -->
+      <class name="testcases.CurrencyManagement">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.CurrencyManagement -->
+      <class name="testcases.Announcement">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="close"/>
+          <include name="AddSearchDeleteAnnouncement"/>
+          <include name="reportWrapUp"/>
+        </methods>
+      </class> <!-- testcases.Announcement -->
+    </classes>
+  </test> <!-- TestName(failed) -->
+</suite> <!-- Failed suite [Suite] -->

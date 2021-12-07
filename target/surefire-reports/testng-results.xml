@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-24T14:08:26Z" name="Suite" finished-at="2021-05-24T14:09:03Z" duration-ms="36854">
+    <groups>
+    </groups>
+    <test started-at="2021-05-24T14:08:26Z" name="TestName" finished-at="2021-05-24T14:09:03Z" duration-ms="36854">
+      <class name="testcases.Category">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Category@b3d7190]" started-at="2021-05-24T19:38:26Z" name="setUp" finished-at="2021-05-24T19:38:37Z" duration-ms="10886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.Category@b3d7190]" started-at="2021-05-24T19:38:37Z" name="beforeMethod" finished-at="2021-05-24T19:38:37Z" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Category.AddCategoryValidationCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddCategoryValidationCheck()[pri:0, instance:testcases.Category@b3d7190]" started-at="2021-05-24T19:38:37Z" name="AddCategoryValidationCheck" finished-at="2021-05-24T19:39:02Z" duration-ms="25173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategoryValidationCheck -->
+        <test-method is-config="true" signature="reportWrapUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.Category@b3d7190]" started-at="2021-05-24T19:39:02Z" name="reportWrapUp" finished-at="2021-05-24T19:39:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCategoryValidationCheck status=SUCCESS method=Category.AddCategoryValidationCheck()[pri:0, instance:testcases.Category@b3d7190] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.Category.AddCategoryValidationCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportWrapUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Category@b3d7190]" started-at="2021-05-24T19:39:02Z" name="closeBrowser" finished-at="2021-05-24T19:39:03Z" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Category@b3d7190]" started-at="2021-05-24T19:39:03Z" name="close" finished-at="2021-05-24T19:39:03Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.Category -->
+    </test> <!-- TestName -->
+  </suite> <!-- Suite -->
+</testng-results>
