@@ -99,4 +99,18 @@ public class WaitStatement {
         } catch (Exception e) {
         }
     }
+    
+    public boolean findElementInVisibility(final By by, int time) {
+
+		WebDriverWait wait = new WebDriverWait(driver, time);
+		try {
+			return wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+		} catch (Exception e) {
+			System.out.println();
+			return true;
+		}
+	}
+    
+  
+
 }

@@ -15,7 +15,7 @@ public class Status extends WebTestBase {
 
 	@Test(priority = 1)
 	public void validationCheck() {
-		test = getTest(Screenname + ": Validation message on Add Status");
+		test = getTest(Screenname + ": Validation message on Add Status"); 
 
 		StatusAction statusaction = new StatusAction(driver);
 

@@ -3,16 +3,16 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="testcases.TemplateMapping">
+      <class name="testcases.PasswordPolicy">
         <methods>
-          <include name="TrainingFeedbacklisting"/>
           <include name="setUp"/>
+          <include name="validationCheck"/>
           <include name="beforeMethod"/>
           <include name="closeBrowser"/>
           <include name="close"/>
           <include name="reportWrapUp"/>
         </methods>
-      </class> <!-- testcases.TemplateMapping -->
+      </class> <!-- testcases.PasswordPolicy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

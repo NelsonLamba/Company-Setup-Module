@@ -81,7 +81,27 @@ public class WebBasePage extends WaitStatement {
             Assert.fail("" + e);
         }
     }
+    
+    
+    public void clear(By by, String name , int time)
 
+    {
+    	try {
+    		WebElement element = findElementVisibility(by, time);
+    		 staticWait(200);
+             element.clear();
+             getTest().log(LogStatus.PASS,"Cleared the value entered in the field");
+             logger.info("Cleared the value entered in the field");
+    	}
+    	catch(Exception e)
+    	{
+    		getTest().log(LogStatus.FAIL, " Did not Cleared the value which was entered in the field");
+            logger.info("Did not Cleared the value which was entered in the field");
+            takeScreenshot(new Object() {
+            }.getClass().getEnclosingMethod().getName());
+            Assert.fail("" + e);
+    	}
+    }
     public void click(By by, String name, int time) {
 
         WebElement element = findElementVisibility(by, time);
