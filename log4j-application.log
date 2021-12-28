@@ -7640,3 +7640,443 @@ Session ID: 89e2bcdb897ecc03890b26fd91e09246
 2021-12-24 13:03:13,062  INFO [main] User Login Page:113 - Full Menu clicked 
 2021-12-24 13:03:17,128  INFO [main] User Login Page:269 - Company setup side Menu click by JS
 2021-12-24 13:03:27,905  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 10:36:34,389  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 10:36:34,730  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 10:36:35,025  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 10:36:35,604  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 10:36:50,504  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 10:36:54,557  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 10:37:04,928  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 10:37:09,506  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 10:37:12,395  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 10:37:12,691  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 10:37:14,753  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 10:37:17,807  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 10:37:18,236  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 10:37:18,580  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 10:37:18,916  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 10:37:19,290  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 10:37:23,368  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 10:37:27,979  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 10:55:17,063  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 10:55:17,380  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 10:55:17,672  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 10:55:18,252  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 10:55:33,580  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 10:55:37,655  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 10:55:49,358  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 10:55:53,943  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 10:55:56,694  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 10:55:58,766  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 10:56:01,822  INFO [main] User Login Page:112 - Validation message is displayed as expected
+2021-12-27 10:56:02,179  INFO [main] User Login Page:75 - enter Black List Password  entered with value - talygen
+2021-12-27 11:43:26,951  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 11:43:27,277  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 11:43:27,576  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 11:43:28,167  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 11:43:43,944  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 11:43:48,011  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 11:43:58,806  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 11:44:03,401  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 11:44:06,269  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 11:44:06,580  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 11:44:08,643  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 11:44:11,705  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 11:44:12,143  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 11:44:12,499  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 11:44:12,844  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 11:44:13,185  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 11:44:17,238  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 11:44:21,084  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 11:44:23,162  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-27 11:44:23,751  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-27 11:44:24,178  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-27 11:44:24,680  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-27 12:03:21,196  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 12:03:21,534  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 12:03:21,856  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 12:03:22,428  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 12:03:31,283  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 12:03:35,367  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 12:03:39,683  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 12:03:44,259  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 12:03:53,870  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 12:03:54,174  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 12:03:56,240  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 12:03:59,290  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 12:03:59,723  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 12:04:00,067  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 12:04:00,394  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 12:04:00,741  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 12:04:04,806  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 12:04:09,722  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 12:04:11,806  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-27 12:04:12,413  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-27 12:04:12,836  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-27 12:04:13,333  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-27 15:53:15,234  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 15:53:15,570  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 15:53:15,865  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 15:53:16,478  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 15:53:32,141  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 15:53:36,224  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 15:53:43,409  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 15:53:48,031  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 15:53:50,957  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 15:53:51,271  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 15:53:53,322  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 15:53:56,382  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 15:53:56,821  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 15:53:57,170  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 15:53:57,493  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 15:53:57,855  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 15:54:01,907  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 15:54:07,696  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 15:54:09,752  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-27 15:54:10,336  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-27 15:54:10,737  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-27 15:54:11,241  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-27 15:54:47,225  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-27 15:56:13,202  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 15:56:13,546  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 15:56:13,862  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 15:56:14,482  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 15:56:29,947  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 15:56:34,028  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 15:56:44,574  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 15:56:49,177  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 15:56:51,938  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 15:56:52,258  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 15:56:54,330  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 15:56:57,388  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 15:56:57,810  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 15:56:58,150  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 15:56:58,480  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 15:56:58,858  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 15:57:02,949  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 15:57:07,448  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 15:57:09,532  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-27 15:57:10,140  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-27 15:57:10,554  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-27 15:57:11,072  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-27 15:57:23,031  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-27 16:07:43,272  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 16:07:43,610  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 16:07:43,938  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 16:07:44,534  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 16:08:00,565  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 16:08:04,663  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 16:08:14,672  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 16:08:19,275  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 16:08:21,992  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 16:08:22,312  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 16:08:24,381  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 16:08:27,434  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 16:08:27,876  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 16:08:28,239  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 16:08:28,590  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 16:08:30,815  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 16:08:35,099  INFO [main] User Login Page:116 - Close Notify Message not clicked
+2021-12-27 16:08:35,651  INFO [main] PasswordPolicy-passwordLength:75 - Method - passwordLength failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\passwordLength_20211227160835.png
+2021-12-27 16:09:22,073  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-27 16:09:22,398  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-27 16:09:22,698  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-27 16:09:23,293  INFO [main] User Login Page:113 - Login clicked 
+2021-12-27 16:09:32,429  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 16:09:36,504  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 16:09:47,060  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-27 16:09:51,645  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-27 16:09:54,309  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 16:09:54,614  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-27 16:09:56,677  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 16:09:59,736  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-27 16:10:00,174  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-27 16:10:00,532  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-27 16:10:00,873  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-27 16:10:03,079  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-27 16:10:06,438  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-27 16:10:10,507  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-27 16:10:14,678  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-27 16:10:16,749  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-27 16:10:17,343  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-27 16:10:17,759  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-27 16:10:18,234  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-27 16:10:43,889  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 10:09:06,812  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 10:09:07,153  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 10:09:07,498  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 10:09:08,082  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 10:09:22,812  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 10:09:26,871  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 10:09:31,342  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 10:09:35,916  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 10:09:44,977  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 10:09:45,298  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 10:09:47,344  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 10:09:50,417  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-28 10:09:50,837  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 10:09:51,171  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 10:09:51,538  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 10:09:53,764  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 10:09:57,159  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 10:10:01,219  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 10:10:05,864  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 10:10:07,939  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 10:10:08,529  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 10:10:08,950  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 10:10:09,449  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 10:10:23,511  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 11:13:14,770  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 11:13:15,110  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 11:13:15,422  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 11:13:16,010  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 11:13:24,765  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 11:13:28,846  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 11:13:38,673  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 11:13:43,259  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 11:13:46,105  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 11:13:46,428  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 11:13:48,488  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 11:13:51,549  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-28 11:13:52,012  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 11:13:52,372  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 11:13:52,717  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 11:13:54,935  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 11:13:58,290  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 11:14:02,346  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 11:14:06,650  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 11:14:08,722  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 11:14:09,311  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 11:14:09,761  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 11:14:10,251  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 11:14:29,784  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 11:14:30,358  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 11:14:31,829  INFO [main] User Login Page:116 - Reset Password Link not clicked
+2021-12-28 11:14:32,405  INFO [main] PasswordPolicy-passwordLength:75 - Method - passwordLength failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\passwordLength_20211228111432.png
+2021-12-28 12:42:10,145  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 12:42:10,494  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 12:42:10,818  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 12:42:11,393  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 12:42:27,079  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 12:42:31,140  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 12:42:47,902  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 12:42:52,488  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 12:42:55,413  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 12:42:55,706  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 12:42:57,772  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 12:43:00,808  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-28 12:43:01,217  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 12:43:01,580  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 12:43:01,925  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 12:43:04,145  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 12:43:07,514  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 12:43:12,391  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 12:43:42,739  INFO [main] User Login Page:123 -  User Listing Page  not clicked
+2021-12-28 12:43:43,286  INFO [main] PasswordPolicy-passwordLength:75 - Method - passwordLength failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\passwordLength_20211228124343.png
+2021-12-28 12:45:15,325  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 12:45:15,651  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 12:45:15,969  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 12:45:16,585  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 12:45:31,794  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 12:45:35,862  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 12:45:46,801  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 12:45:51,407  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 12:45:54,085  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 12:45:54,379  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 12:45:56,438  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 12:45:59,996  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-28 12:46:00,418  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 12:46:00,778  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 12:46:01,115  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 12:46:03,340  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 12:46:07,209  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 12:46:11,284  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 12:46:15,549  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 12:46:17,624  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 12:46:18,225  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 12:46:18,647  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 12:46:19,130  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 12:46:33,277  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 12:46:33,844  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 12:46:35,361  INFO [main] User Login Page:116 - Reset Password Link not clicked
+2021-12-28 12:46:35,922  INFO [main] PasswordPolicy-passwordLength:75 - Method - passwordLength failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\passwordLength_20211228124635.png
+2021-12-28 13:00:45,411  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 13:00:45,750  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 13:00:46,076  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 13:00:46,657  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 13:01:00,959  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 13:01:05,024  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 13:01:13,900  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 13:01:18,511  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 13:01:21,550  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 13:01:21,858  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 13:01:23,922  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 13:01:27,467  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-28 13:01:27,929  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 13:01:28,290  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 13:01:28,646  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 13:01:30,867  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 13:01:34,728  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 13:01:38,818  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 13:01:43,326  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 13:01:45,401  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 13:01:45,994  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 13:01:46,417  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 13:01:46,920  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 13:01:59,249  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 13:01:59,827  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 13:02:00,339  INFO [main] User Login Page:75 - Entered Less then limit Password entered with value - Passw
+2021-12-28 13:02:01,786  INFO [main] PasswordPolicy-passwordLength:75 - Method - passwordLength failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\passwordLength_20211228130201.png
+2021-12-28 13:27:40,202  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 13:27:40,539  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 13:27:40,837  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 13:27:41,424  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 13:27:57,014  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 13:28:01,096  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 13:28:04,965  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 13:28:09,537  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 13:28:18,277  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 13:28:18,581  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 13:28:20,649  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 13:28:24,209  INFO [main] User Login Page:94 - Validation message is displayed as expected
+2021-12-28 13:28:24,649  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 13:28:24,991  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 13:28:25,327  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 13:28:27,535  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 13:28:31,361  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 13:28:35,433  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 13:28:40,140  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 13:28:42,219  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 13:28:42,883  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 13:28:43,286  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 13:28:43,813  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 13:28:57,610  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 13:28:58,215  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 13:28:58,757  INFO [main] User Login Page:75 - Entered Less then limit Password entered with value - Passw
+2021-12-28 13:28:59,295  INFO [main] User Login Page:113 -  Reset Button clicked 
+2021-12-28 13:28:59,339  INFO [main] User Login Page:205 - Validation message is displayed as expected
+2021-12-28 13:29:19,623  INFO [main] User Login Page:123 - Close Notify Message not clicked
+2021-12-28 13:29:20,174  INFO [main] PasswordPolicy-passwordLength:75 - Method - passwordLength failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\passwordLength_20211228132919.png
+2021-12-28 14:38:58,332  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 14:38:58,671  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 14:38:58,985  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 14:38:59,576  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 14:39:16,197  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 14:39:20,263  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 14:39:31,115  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 14:39:35,712  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 14:39:45,687  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 14:39:45,989  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 14:39:48,049  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 14:39:51,609  INFO [main] User Login Page:94 - Validation message is displayed as expectedEnter a number between 4-31
+2021-12-28 14:39:52,049  INFO [main] User Login Page:113 - Close Notify Message clicked 
+2021-12-28 14:39:52,400  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 6
+2021-12-28 14:39:52,740  INFO [main] User Login Page:75 - Password Minimum Length entered with value - 10
+2021-12-28 14:39:54,962  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 14:39:58,827  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 14:40:02,905  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 14:40:07,360  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 14:40:09,440  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 14:40:10,059  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 14:40:10,473  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 14:40:10,957  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 14:40:27,367  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 14:40:27,980  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 14:40:28,504  INFO [main] User Login Page:75 - Entered Less then limit Password entered with value - Passw
+2021-12-28 14:40:28,992  INFO [main] User Login Page:113 -  Reset Button clicked 
+2021-12-28 14:40:29,031  INFO [main] User Login Page:205 - Validation message is displayed as expectedPlease enter a valid New Password! (e.g. abc123#@_)
+2021-12-28 14:40:29,523  INFO [main] User Login Page:113 - Close popup clicked 
+2021-12-28 14:40:30,000  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 14:40:30,510  INFO [main] User Login Page:75 - Entered Greater then limit Password entered with value - Password12345
+2021-12-28 14:40:30,960  INFO [main] User Login Page:113 -  Reset Button clicked 
+2021-12-28 14:40:31,002  INFO [main] User Login Page:205 - Validation message is displayed as expectedPlease enter a valid New Password! (e.g. abc123#@_)
+2021-12-28 14:40:31,457  INFO [main] User Login Page:113 - Close popup clicked 
+2021-12-28 15:05:44,984  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 15:05:45,308  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 15:05:45,622  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 15:05:46,199  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 15:06:04,268  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 15:06:08,332  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 15:06:15,420  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 15:06:20,006  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 15:06:22,988  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 15:06:25,062  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 15:06:28,610  INFO [main] User Login Page:112 - Validation message is displayed as expected Black Listed Passwords is required
+2021-12-28 15:06:28,943  INFO [main] User Login Page:75 - enter Black List Password  entered with value - talygen
+2021-12-28 15:07:31,174  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 15:07:31,513  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 15:07:31,804  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 15:07:32,399  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 15:07:47,901  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 15:07:51,981  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 15:08:01,310  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 15:08:05,905  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 15:08:08,622  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 15:08:10,684  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 15:08:14,248  INFO [main] User Login Page:112 - Validation message is displayed as expected Black Listed Passwords is required
+2021-12-28 15:08:14,585  INFO [main] User Login Page:75 - enter Black List Password  entered with value - talygen
+2021-12-28 15:12:17,833  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 15:12:18,162  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 15:12:18,484  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 15:12:19,098  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 15:12:34,951  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 15:12:39,018  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 15:12:50,007  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 15:12:54,586  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 15:12:57,295  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 15:12:59,355  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 15:13:02,914  INFO [main] User Login Page:112 - Validation message is displayed as expected Black Listed Passwords is required
+2021-12-28 15:13:03,349  INFO [main] User Login Page:113 - Close Notify Message  clicked 
+2021-12-28 15:13:03,732  INFO [main] User Login Page:75 - enter Black List Password  entered with value - talygen
+2021-12-28 16:20:41,469  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 16:20:41,796  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 16:20:42,109  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 16:20:42,683  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 16:20:56,646  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 16:21:00,721  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 16:21:11,257  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 16:21:15,851  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 16:21:18,861  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 16:21:20,926  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 16:21:24,473  INFO [main] User Login Page:112 - Validation message is displayed as expected Black Listed Passwords is required
+2021-12-28 16:21:24,913  INFO [main] User Login Page:113 - Close Notify Message  clicked 
+2021-12-28 16:21:25,307  INFO [main] User Login Page:75 - enter Black List Password  entered with value - talygenpassword
+2021-12-28 16:21:27,529  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 16:21:31,373  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 16:21:35,442  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 16:21:39,594  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 16:21:41,665  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 16:21:42,284  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 16:21:42,692  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 16:21:43,207  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 16:21:57,306  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 16:21:57,890  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 16:22:23,942  INFO [main] User Login Page:78 - Enter Blacklist Password not entered with value - talygenpassword, error exist - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "element" is null
+2021-12-28 16:22:24,502  INFO [main] PasswordPolicy-blackklist:75 - Method - blackklist failed , see the screenshot - C:\Users\nlamba\eclipse-workspace\CompanySetup\reports\blackklist_20211228162224.png
+2021-12-28 16:29:21,018  INFO [main] User Login Page:75 - User Name entered with value - gyal@mailinator.com	
+2021-12-28 16:29:21,358  INFO [main] User Login Page:75 - Password entered with value - Royal@12
+2021-12-28 16:29:21,686  INFO [main] User Login Page:113 - Privacy Policy clicked 
+2021-12-28 16:29:22,250  INFO [main] User Login Page:113 - Login clicked 
+2021-12-28 16:29:38,232  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 16:29:42,327  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 16:29:52,271  INFO [main] User Login Page:113 -  Company Setup Page clicked 
+2021-12-28 16:29:58,209  INFO [main] User Login Page:269 - Password Policy click by JS
+2021-12-28 16:30:08,592  INFO [main] User Login Page:94 - Cleared the value entered in the field
+2021-12-28 16:30:10,640  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 16:30:14,197  INFO [main] User Login Page:112 - Validation message is displayed as expected Black Listed Passwords is required
+2021-12-28 16:30:14,633  INFO [main] User Login Page:113 - Close Notify Message  clicked 
+2021-12-28 16:30:15,051  INFO [main] User Login Page:75 - enter Black List Password  entered with value - talygenpassword
+2021-12-28 16:30:17,269  INFO [main] User Login Page:269 - Save Status Name click by JS
+2021-12-28 16:30:21,129  INFO [main] User Login Page:113 - Full Menu clicked 
+2021-12-28 16:30:25,195  INFO [main] User Login Page:269 - Company setup side Menu click by JS
+2021-12-28 16:30:29,607  INFO [main] User Login Page:113 -  User Listing Page  clicked 
+2021-12-28 16:30:31,686  INFO [main] User Login Page:284 -  Text displayed is  - ginny
+2021-12-28 16:30:32,308  INFO [main] User Login Page:113 -  click on the  search by name field clicked 
+2021-12-28 16:30:32,738  INFO [main] User Login Page:75 -  Search By name entered with value - ginny
+2021-12-28 16:30:33,241  INFO [main] User Login Page:113 -  Click on search buttton clicked 
+2021-12-28 16:30:45,252  INFO [main] User Login Page:113 - Click on the Username clicked 
+2021-12-28 16:30:45,837  INFO [main] User Login Page:113 - Reset Password Link clicked 
+2021-12-28 16:30:46,533  INFO [main] User Login Page:75 - Enter Blacklist Password entered with value - talygenpassword
+2021-12-28 16:30:47,005  INFO [main] User Login Page:113 -  Reset Button clicked 
+2021-12-28 16:30:47,046  INFO [main] User Login Page:205 - Validation message is displayed as expected Please enter a valid New Password! (e.g. abc123#@_)
+2021-12-28 16:30:47,493  INFO [main] User Login Page:113 - Close popup clicked 

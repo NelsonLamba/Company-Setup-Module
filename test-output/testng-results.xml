@@ -2,51 +2,51 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-24T07:32:17Z" name="Default suite" finished-at="2021-12-24T07:33:30Z" duration-ms="73411">
+  <suite started-at="2021-12-28T10:59:11Z" name="Default suite" finished-at="2021-12-28T11:00:48Z" duration-ms="96761">
     <groups>
     </groups>
-    <test started-at="2021-12-24T07:32:17Z" name="Default test" finished-at="2021-12-24T07:33:30Z" duration-ms="73411">
+    <test started-at="2021-12-28T10:59:11Z" name="Default test" finished-at="2021-12-28T11:00:48Z" duration-ms="96761">
       <class name="testcases.PasswordPolicy">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.PasswordPolicy@6cb6decd]" started-at="2021-12-24T13:02:17Z" name="setUp" finished-at="2021-12-24T13:02:27Z" duration-ms="10144" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.PasswordPolicy@6aa61224]" started-at="2021-12-28T16:29:11Z" name="setUp" finished-at="2021-12-28T16:29:20Z" duration-ms="8768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.PasswordPolicy@6cb6decd]" started-at="2021-12-24T13:02:27Z" name="beforeMethod" finished-at="2021-12-24T13:02:27Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.PasswordPolicy@6aa61224]" started-at="2021-12-28T16:29:20Z" name="beforeMethod" finished-at="2021-12-28T16:29:20Z" duration-ms="82" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.PasswordPolicy.validationCheck()]]>
+                <![CDATA[public void testcases.PasswordPolicy.blackklist()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validationCheck()[pri:1, instance:testcases.PasswordPolicy@6cb6decd]" started-at="2021-12-24T13:02:27Z" name="validationCheck" finished-at="2021-12-24T13:03:29Z" duration-ms="62440" status="PASS">
+        <test-method signature="blackklist()[pri:2, instance:testcases.PasswordPolicy@6aa61224]" started-at="2021-12-28T16:29:20Z" name="blackklist" finished-at="2021-12-28T16:30:47Z" duration-ms="87171" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validationCheck -->
-        <test-method is-config="true" signature="reportWrapUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.PasswordPolicy@6cb6decd]" started-at="2021-12-24T13:03:29Z" name="reportWrapUp" finished-at="2021-12-24T13:03:29Z" duration-ms="3" status="PASS">
+        </test-method> <!-- blackklist -->
+        <test-method is-config="true" signature="reportWrapUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.PasswordPolicy@6aa61224]" started-at="2021-12-28T16:30:47Z" name="reportWrapUp" finished-at="2021-12-28T16:30:47Z" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validationCheck status=SUCCESS method=PasswordPolicy.validationCheck()[pri:1, instance:testcases.PasswordPolicy@6cb6decd] output={null}]]]>
+                <![CDATA[[TestResult name=blackklist status=SUCCESS method=PasswordPolicy.blackklist()[pri:2, instance:testcases.PasswordPolicy@6aa61224] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcases.PasswordPolicy.validationCheck()]]>
+                <![CDATA[public void testcases.PasswordPolicy.blackklist()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportWrapUp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.PasswordPolicy@6cb6decd]" started-at="2021-12-24T13:03:29Z" name="closeBrowser" finished-at="2021-12-24T13:03:30Z" duration-ms="732" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.PasswordPolicy@6aa61224]" started-at="2021-12-28T16:30:47Z" name="closeBrowser" finished-at="2021-12-28T16:30:48Z" duration-ms="725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.PasswordPolicy@6cb6decd]" started-at="2021-12-24T13:03:30Z" name="close" finished-at="2021-12-24T13:03:30Z" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.PasswordPolicy@6aa61224]" started-at="2021-12-28T16:30:48Z" name="close" finished-at="2021-12-28T16:30:48Z" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

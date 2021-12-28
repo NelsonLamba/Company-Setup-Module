@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\nlamba\AppData\Local\Temp\testng-eclipse--82828959\testng-customsuite.xml</span>
+                    <span>C:\Users\nlamba\AppData\Local\Temp\testng-eclipse-280726654\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.PasswordPolicy" class="method navigator-link" hash-for-method="validationCheck">validationCheck</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.PasswordPolicy" class="method navigator-link" hash-for-method="blackklist">blackklist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -124,9 +124,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validationCheck">
-                  </a> <!-- validationCheck -->
-                  <span class="method-name">validationCheck</span>
+                  <a name="blackklist">
+                  </a> <!-- blackklist -->
+                  <span class="method-name">blackklist</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +134,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nlamba\AppData\Local\Temp\testng-eclipse--82828959\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\nlamba\AppData\Local\Temp\testng-eclipse-280726654\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +145,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;testcases.PasswordPolicy&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;validationCheck&quot;/&gt;
+          &lt;include name=&quot;blackklist&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- testcases.PasswordPolicy --&gt;
     &lt;/classes&gt;
@@ -189,9 +189,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validationCheck')
+data.setCell(0, 1, 'blackklist')
 data.setCell(0, 2, 'testcases.PasswordPolicy')
-data.setCell(0, 3, 62440);
+data.setCell(0, 3, 87171);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -211,9 +211,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PasswordPolicy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">passwordLength</span>
+                <br/>
+                <span class="ignored-method-name">reusePassword</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -228,24 +237,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void testcases.PasswordPolicy.validationCheck())</span>
-                <span class="method-start">10148 ms</span>
+                <span class="method-name">beforeMethod(public void testcases.PasswordPolicy.blackklist())</span>
+                <span class="method-start">8772 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validationCheck</span>
-                <span class="method-start">10226 ms</span>
+                <span class="method-name">blackklist</span>
+                <span class="method-start">8854 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">reportWrapUp([TestResult name=validationCheck status=SUCCESS method=PasswordPolicy.validationCheck()[pri:1, insta...)</span>
-                <span class="method-start">72668 ms</span>
+                <span class="method-name">reportWrapUp([TestResult name=blackklist status=SUCCESS method=PasswordPolicy.blackklist()[pri:2, instance:testca...)</span>
+                <span class="method-start">96026 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">72671 ms</span>
+                <span class="method-start">96029 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">close</span>
-                <span class="method-start">73440 ms</span>
+                <span class="method-start">96785 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
