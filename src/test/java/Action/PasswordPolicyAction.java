@@ -27,6 +27,13 @@ public class PasswordPolicyAction {
 		passwordpolicypage.clickOnPasswordPolicy();
 	}
 	
+	public void createUser() {
+		passwordpolicypage.clickFullMenuDropDown();
+		passwordpolicypage.clickCompanySetupSideMenu();
+		passwordpolicypage.clickUserPage();
+				
+		passwordpolicypage.createUser();
+	}
 	public void goToUserListing()
 	{
 		passwordpolicypage.clickFullMenuDropDown();
@@ -90,8 +97,22 @@ public class PasswordPolicyAction {
 	 {
 		 passwordpolicypage.clearReusePasswordCount();
 		 passwordpolicypage.save();
-		 passwordpolicypage.verifyreusePasswordValidation();
-		 passwordpolicypage.enterPasswordCount();
+		 goToUserListing();
+		 passwordpolicypage.searchUserByEmailid();
+		 passwordpolicypage.clickOnUsername();
+		
+		passwordpolicypage.clickOnResetPassword();
+		passwordpolicypage.enterReUsePassword();
+		passwordpolicypage.clickResetButton();
+		passwordpolicypage.verifyReusePasswordValidation();
+		passwordpolicypage.closePopup();
+		 
+		 
+		 
+	//	 passwordpolicypage.verifyreusePasswordValidation();
+//		 passwordpolicypage.closeNotifyMessage();
+//		 passwordpolicypage.enterPasswordCount();
+//		 passwordpolicypage.save();
 		 
 	 }
 

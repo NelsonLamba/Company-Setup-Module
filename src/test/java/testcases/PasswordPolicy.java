@@ -48,11 +48,17 @@ public class PasswordPolicy extends WebTestBase {
 		test = getTest(Screenname + ": Validation message on  Reuse Password"); 
 		PasswordPolicyAction passwordpolicyaction = new PasswordPolicyAction(driver);
 		new LoginAction(driver).logoutLogin();
+		passwordpolicyaction.createUser();
 		passwordpolicyaction.goToPasswordTab();
 		passwordpolicyaction.reusePasswordValidation();
-		
-		
 	 }
+	
+	
+	//@Test(priority=4)
+	
+	// public void 
+	
+	
 //	@Test(priority = 1)
 //	public void validationCheck() {
 //		test = getTest(Screenname + ": Validation message on Add Password Policy"); 

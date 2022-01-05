@@ -6,8 +6,8 @@
       <class name="testcases.PasswordPolicy">
         <methods>
           <include name="setUp"/>
+          <include name="reusePassword"/>
           <include name="beforeMethod"/>
-          <include name="blackklist"/>
           <include name="closeBrowser"/>
           <include name="close"/>
           <include name="reportWrapUp"/>

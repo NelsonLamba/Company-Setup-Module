@@ -29,6 +29,9 @@ public class PasswordPolicyPage extends WebBasePage {
 	private final static String FILE_NAME = System.getProperty("user.dir")
 			+ "\\src\\main\\resources\\testdata.properties";
 	private static Properties prop = new PropertiesLoader(FILE_NAME).load();
+	
+	static String useremailid;
+	static String globalPass;
 	//static String statusproductname;
 	
 	public PasswordPolicyPage(WebDriver driver) {
@@ -38,7 +41,8 @@ public class PasswordPolicyPage extends WebBasePage {
 	}
 	
 	public void clickFullMenuDropDown() {
-		click(By.cssSelector("a#navbarDropdownPortfolio"), "Full Menu", 30);
+		staticWait(2000);
+		click(By.cssSelector("a#navbarDropdownPortfolio"), "Full Menu", 40);
 		staticWait(2000);
 	}
 	
@@ -59,6 +63,10 @@ public class PasswordPolicyPage extends WebBasePage {
 	 }
 	public void clickCompanySetupPage() {
 		click(By.xpath("//a[contains(text(),'Company Setup')]"), " Company Setup Page", 30);
+		staticWait(2000);
+	}
+	public void clickUserPage() {
+		click(By.xpath("//ul[@data-p-name='COMPANY SETUP']//a[@data-original-title='User']"), "User Page", 30);
 		staticWait(2000);
 	}
 
@@ -139,7 +147,44 @@ public class PasswordPolicyPage extends WebBasePage {
 	  
 	  public void clearReusePasswordCount()
 	  {
+		  
+		  staticWait(3000);
+		  String str = driver.findElement(By.xpath("//input[@id='EnableReusePasswordsPolicy']")).getAttribute("checked");
+		  if (str.equalsIgnoreCase("true"))
+		  {
+		      System.out.println(" Enable Checkbox is already selected");
+		  }
+		  
+		  else
+		  {
+			  click(By.xpath("//input[@id='EnableReusePasswordsPolicy']")," Enable Reuse Password", 25);
+		  }
+		  
 		  clear(By.id("ReusePwdNumber")," Clear the Reuse Password Count ", 25);
+		  enter(By.id("ReusePwdNumber"),"1"," Enter Reuse Password Count", 25);
+		  
+		  
+		  
+		  
+		  
+		  
+//	//	isDisplayed(By.xpath("//label[text()='User cannot Reuse Last:']/..//input[@disabled='disabled']"), "Field is disabled ", 25);
+//		
+//		boolean main = driver.findElement(By.xpath("//label[text()='User cannot Reuse Last:']/..//input[@disabled='disabled']")).isDisplayed();
+//		System.out.println(main);
+//		
+//		//label[text()="User cannot Reuse Last:"]/..//input[@disabled='disabled']
+//		  if(main==true)  
+//		  {
+//			    System.out.println("disabled tag is present");
+//			    click(By.id("EnableReusePasswordsPolicy"),"Enabled Password Policy"	, 25);
+//		  }
+//			else
+//			{
+//			    System.out.println("disabled tag is not present");
+//			   
+//			}
+//		  clear(By.id("ReusePwdNumber")," Clear the Reuse Password Count ", 25);
 	  }
 	  
 	  public void verifyreusePasswordValidation()
@@ -213,18 +258,239 @@ public class PasswordPolicyPage extends WebBasePage {
 	 	            //Assert.fail("" + e);
 	 			 } 
 	 	  }
+	       
+	        public void verifyReusePasswordValidation()
+	        {
+	        	staticWait(3000);
+	        	 String  Message = driver.findElement(By.xpath("//div[@id='message']/span")).getText(); 
+				 if(Message.equals("Your new password should not match your last 1 passwords."))
+				 {
+					 getTest().log(LogStatus.PASS, "Validation message is displayed as expected " + Message);
+		            logger.info("Validation message is displayed as expected " + Message);	
+				 }
+				 else
+				 {
+					 getTest().log(LogStatus.FAIL, "Validation message is not displayed as expected " + Message );
+		            logger.info("Validation message is not displayed as expected " + Message);
+		            takeScreenshot(new Object() {
+		            }.getClass().getEnclosingMethod().getName());
+		            //Assert.fail("" + e);
+				 } 
+	        }
 	       public void closePopup()
 	       {
 	    	   click(By.xpath("//h5[text()='Reset Password']/..//Button[@data-original-title='Close']"),"Close popup", 25);
 	       }
-	        public void resetButton()
+	       public void resetButton()
 	        {
 	        	click(By.xpath("//Button[text()='Reset']")," Reset Button", 25);
+	        	
 	        }
 	        
-	         public void enterBlacklistPassword()
-	         {
+	       public void enterBlacklistPassword()
+	      {
 	        	 enter(By.id("txtNewPass"),"talygenpassword","Enter Blacklist Password",25);
-	         }
+	      }
+	       
+	       public void enterReUsePassword()
+		   	 {
+	    	   enter(By.id("txtNewPass"),globalPass,"Enter ReUse Password",25);
+	    	   enter(By.id("txtConfirmPassword"),globalPass,"Enter ReUse Password",25);   
+		   	 }
+	       
+	       
+	       public void createUser() {
+
+	   		clickAddUser();
+	   		selectTitle();
+	   		selectUserType();
+	   		enterFirstName();
+	   		enterLastName();
+	   		enterEmail();
+	   		selectGender();
+	   		clickEnableLoginSwitch();
+	   		enterPassword();
+	   		enterConfirmPassword();
+	   		selectTimezone();
+	   		selectDOB();
+	   		selectDOD();
+	   		selectDOJ();
+	   		selectDOL();
+	   		selectDepartment();
+	   		selectDesignation();
+	   		selectShift();
+	   		enterEmployeeId();
+	   		enterAliasName();
+	   		clickVirtualUserSwitch();
+	   		clickSave();
+	   		//clickActionButton();
+	   		//clickAssociateLicenses();
+	   		//clickPerformanceLicense();
+//	   		addLicenseSuccessMessage();
+	   		//closeLicensePopup();
+//	   		clickActionButton();
+//	   		clickConfiguration();
+//	   		enableTicketResolve();
+//	   		clickSaveSettings();
+//	   		verifySuccessMessage(By.cssSelector("#notifymessage div"), "Record(s) has been successfully saved.", 20);
+//	   		clickCloseConfiguration();
+	   	}
+	       
+	       
+	       public void clickAddUser() {
+	   		findElementVisibility(By.xpath("//a[@id='ancCreateDepartment']"), 20);
+	   		clickByJavascript(By.xpath("//a[@id='ancCreateDepartment']"), "Add User", 20);
+	   	}
+	       
+	       public void selectTitle() {
+	   		selectValueWithText(By.cssSelector("#user_title_id"), "Mr.", "Select Title", 0);
+	   	}
+
+	   	// Select User Type
+	   	public void selectUserType() {
+	   		selectValueWithText(By.cssSelector("#Clientdetail_user_type_id"), "Normal User", "Select User Type", 0);
+	   	}
+
+	   	// enter First Name
+	   	public void enterFirstName() {
+	   		enter(By.cssSelector("#txtFirstName"), prop.getProperty("userFirstName"), "First name", 40);
+	   	}
+
+	   	// enter Last Name
+	   	public void enterLastName() {
+	   		enter(By.cssSelector("#Clientdetail_last_name"), prop.getProperty("enterLastName"), "Last name", 40);
+	   	}
+
+	   	// enter Email
+	   	public void enterEmail() {
+	   		
+	   		double randomnumber = Math.random();
+	   		
+	   		String Emailid ="Testing"+randomnumber+"@yopmail.com"; 
+	   		useremailid = Emailid;
+	   		enter(By.cssSelector("#txtEmail"), Emailid, "Email", 20);
+	   	}
+
+	   	// Select Gender
+	   	public void selectGender() {
+	   		selectValueWithText(By.cssSelector("#Clientdetail_gender"), "Male", "Select Gender", 20);
+	   	}
+
+	   	// Select Enable Login
+	   	public void clickEnableLoginSwitch() {
+	   		click(By.xpath("//div[@id='divAttForm']/div[7]/div/div/label/span"), "Enable Login switch", 30);
+
+	   		// input[@id='chkHourFormatN']//following::span[@class='slider
+	   		// round'][1]//span[@class='slider-no']
+	   	}
+
+	   	// enter Password
+	   	public void enterPassword() {
+	   		
+	   		String Pass = prop.getProperty("enterPassword");
+	   		globalPass= Pass;
+	   		enter(By.cssSelector("#txtPassword"),Pass, "Password", 20);
+	   	}
+
+	   	// enter Confirm Password
+	   	public void enterConfirmPassword() {
+	   		enter(By.cssSelector("#txtConfirmPassword"), prop.getProperty("enterConfirmPassword"), "ConfirmPassword", 20);
+	   	}
+
+	   	// Select Timezone
+	   	public void selectTimezone() {
+	   		selectValueWithText(By.xpath("//select[@id='ddlTimeZone']"),
+	   				"(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi Standard Time", "Time zone", 20);
+	   	}
+
+	   	// Select Date Format
+	   	public void selectDOB() {
+
+	   		click(By.xpath("//div[@data-target='#Clientdetail_date_of_birth']"), "Date picker", 30);
+	   		click(By.cssSelector("td.day.active.today"), "Todays Date", 30);
+	   	}
+
+	   	// Select DOD
+	   	public void selectDOD() {
+
+	   		click(By.xpath("//div[@data-target='#Clientdetail_date_of_death']"), "Date picker", 30);
+	   		click(By.cssSelector("td.day.active"), "Date of death", 30);
+	   	}
+
+	   	// Select DOJ
+	   	public void selectDOJ() {
+
+	   		click(By.xpath("//div[@data-target='#Clientdetail_date_of_join']"), "Date picker", 20);
+	   		click(By.cssSelector("td.day.active"), "Date of joining", 30);
+
+	   	}
+
+	   	// Select DOL
+	   	public void selectDOL() {
+
+	   		click(By.xpath("//div[@data-target='#Clientdetail_date_of_leave']"), "Date picker", 20);
+	   		click(By.cssSelector("td.day.active.today"), "Date of leave", 30);
+
+	   	}
+
+	   	// Select Department
+	   	public void selectDepartment() {
+	   		selectValueWithText(By.cssSelector("#Clientdetail_department_id"), "Select", "Select", 20);
+	   		selectValueWithText(By.cssSelector("#Clientdetail_department_id"), "Human Resource", "Human Resource", 20);
+	   	}
+
+	   	// Select Designation
+	   	public void selectDesignation() {
+	   		selectValueWithText(By.cssSelector("#Clientdetail_designation_id"), "Select", "Select", 20);
+	   		selectValueWithText(By.cssSelector("#Clientdetail_designation_id"), "CEO", "CEO", 20);
+	   	}
+
+	   	// Select Shift
+	   	public void selectShift() {
+	   		selectValueWithText(By.cssSelector("#Clientdetail_shift_id"), "Select", "Select", 20);
+	   		selectValueWithText(By.cssSelector("#Clientdetail_shift_id"), "Day(Dallas)", "Day(Dallas)", 20);
+	   	}
+
+	   	// enter Employee Id:
+	   	public void enterEmployeeId() {
+//	   			prop.getProperty("employeeId") 
+	   		enter(By.cssSelector("#Clientdetail_user_emp_id"), datevalue + prop.getProperty("employeeId"), "Employee Id:",
+	   				20);
+	   	}
+
+	   	// enter Alias Name
+	   	public void enterAliasName() {
+	   		enter(By.cssSelector("#Clientdetail_AliasName"), prop.getProperty("aliasName") + datevalue, "Alias Name", 20);
+	   	}
+
+	   	// Select Virtual User
+	   	public void clickVirtualUserSwitch() {
+	   		click(By.xpath("//*[@id='divAttForm']/div[15]/div/div/label/span"), "Virtual User switch", 20);
+	   		// input[@id='chkHourFormatN']//following::span[@class='slider
+	   		// round'][1]//span[@class='slider-no']
+	   	}
+
+	   	public void clickSave() {
+
+	   		click(By.cssSelector("#btnSave"), "Save button", 20);
+	   		staticWait(6000);
+	   	}
+	   	
+	   	public void searchUserByEmailid()
+	   	{
+	   	 click(By.xpath("//span[contains(text(),'Search by Email')]")," click on the  search by email address field", 25);
+	   	 enter(By.xpath("//input[@id='txtsearchByEmailId']"),useremailid,"Search By Email id", 20);
+	   	 click(By.xpath("//a[@id='Go']")," Click on search buttton", 25);
+	   	 
+	   	}
+	   	
+	   	public void clickResetButton()
+	   	
+	   	{
+	   		click(By.xpath("//button[text()='Reset']"), "Click on Reset Button", 25);
+	   	}
+	   	
+	   
+	    
 }
 

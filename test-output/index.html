@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\nlamba\AppData\Local\Temp\testng-eclipse-280726654\testng-customsuite.xml</span>
+                    <span>C:\Users\nlamba\AppData\Local\Temp\testng-eclipse-1594866311\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testcases.PasswordPolicy" class="method navigator-link" hash-for-method="blackklist">blackklist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.PasswordPolicy" class="method navigator-link" hash-for-method="passwordLength">passwordLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.PasswordPolicy" class="method navigator-link" hash-for-method="reusePassword">reusePassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -129,12 +139,26 @@
                   <span class="method-name">blackklist</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordLength">
+                  </a> <!-- passwordLength -->
+                  <span class="method-name">passwordLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reusePassword">
+                  </a> <!-- reusePassword -->
+                  <span class="method-name">reusePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nlamba\AppData\Local\Temp\testng-eclipse-280726654\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\nlamba\AppData\Local\Temp\testng-eclipse-1594866311\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,11 +167,7 @@
 &lt;suite parallel=&quot;none&quot; name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.PasswordPolicy&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;blackklist&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testcases.PasswordPolicy --&gt;
+      &lt;class name=&quot;testcases.PasswordPolicy&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -187,16 +207,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'blackklist')
+data.setCell(0, 1, 'reusePassword')
 data.setCell(0, 2, 'testcases.PasswordPolicy')
-data.setCell(0, 3, 87171);
+data.setCell(0, 3, 169457);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'passwordLength')
+data.setCell(1, 2, 'testcases.PasswordPolicy')
+data.setCell(1, 3, 110277);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'blackklist')
+data.setCell(2, 2, 'testcases.PasswordPolicy')
+data.setCell(2, 3, 108330);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -211,18 +239,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.PasswordPolicy</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">passwordLength</span>
-                <br/>
-                <span class="ignored-method-name">reusePassword</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -237,24 +256,48 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testcases.PasswordPolicy.passwordLength())</span>
+                <span class="method-start">10397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordLength</span>
+                <span class="method-start">10480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportWrapUp([TestResult name=passwordLength status=SUCCESS method=PasswordPolicy.passwordLength()[pri:1, instanc...)</span>
+                <span class="method-start">120758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testcases.PasswordPolicy.blackklist())</span>
-                <span class="method-start">8772 ms</span>
+                <span class="method-start">120763 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">blackklist</span>
-                <span class="method-start">8854 ms</span>
+                <span class="method-start">120763 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">reportWrapUp([TestResult name=blackklist status=SUCCESS method=PasswordPolicy.blackklist()[pri:2, instance:testca...)</span>
-                <span class="method-start">96026 ms</span>
+                <span class="method-start">229094 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testcases.PasswordPolicy.reusePassword())</span>
+                <span class="method-start">229095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reusePassword</span>
+                <span class="method-start">229095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportWrapUp([TestResult name=reusePassword status=SUCCESS method=PasswordPolicy.reusePassword()[pri:3, instance:...)</span>
+                <span class="method-start">398554 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">96029 ms</span>
+                <span class="method-start">398555 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">close</span>
-                <span class="method-start">96785 ms</span>
+                <span class="method-start">399369 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
